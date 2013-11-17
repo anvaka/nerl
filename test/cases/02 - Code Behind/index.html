@@ -1,10 +1,11 @@
 <html>
 <body>
-  <!-- some other stuff from http://www.yasiv.com/graphs page -->
-
   <!-- Inject layout settings here: -->
-  <require "./OptionsView"/>
+  <require name="./timePicker" id='timePicker'/>
 
-  <!-- Rest of the page -->
 </body>
+<script type="text/javascript" charset="utf-8">
+  var timePicker = document.getElementById(timePicker).timePicker;
+  console.log('Timepicker time is: ', timePicker.getTime());
+</script>
 </html>
