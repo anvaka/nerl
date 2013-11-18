@@ -1,0 +1,6 @@
+{
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "clock": "*" // Require html component. See 'node_modules' for more
+  }
+}
