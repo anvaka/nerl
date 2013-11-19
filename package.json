@@ -19,6 +19,7 @@
     "tap": "~0.4.4"
   },
   "dependencies": {
-    "cheerio": "~0.12.4"
+    "cheerio": "~0.12.4",
+    "brfs": "0.0.8"
   }
 }
