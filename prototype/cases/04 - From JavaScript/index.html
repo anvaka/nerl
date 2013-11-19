@@ -2,12 +2,8 @@
 <body>
   <script type="text/javascript" charset="utf-8">
     var Clock = require('clock');
-    var clockElement = Clock.createElement();
-    document.body.appendChild(clockElement);
-    // now we can use 
-    // [clock API](https://github.com/anvaka/nerl/blob/master/test/cases/02%20-%20Code%20Behind/clock.js)
-    // from javascript:
-    console.log('Clock created. Time is: ' + clockElement.getTime());
+    var clockElement = new Clock();
+    clockElement.appendTo(document.body);
   </script>
 </body>
 </html>
