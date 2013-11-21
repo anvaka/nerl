@@ -49,3 +49,10 @@ HTML template and javascript logic is glued together with `bind()` method.
 Once you done this `Clock` inherits useful methods like `initDom()` which will
 create an interface to your HTML markup. Also does it inherit `appendTo()` method
 which will append clock's markup to the parent dom element.
+
+# What is missing today?
+
+Only one part is missing to make this actually work. `browserify` will not
+properly inline html template inside `bind()` method. To make this work we need
+to write a custom transform step for it, which would convert all `bind()` calls
+into `bindTemplate('Clock', 'inlined template string')`
