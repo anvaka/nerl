@@ -11,5 +11,5 @@ function Clock() {
     $.hours = now.getHours();
     $.minutes = now.getMinutes();
     $.seconds = now.getSeconds();
-  }, 1000);
+  }, 100);
 }

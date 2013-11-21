@@ -1,4 +1,8 @@
-`cases` - Contains examples of potential API for npm web components. I'm trying
-to program against API first, even before actual implementation is ready.
+This folder contains examples of envisioned API.
+Each example has `in` and `out` folder.
 
-`implemented` - proves that API from `cases` can be implemented today.
+* `in` shows what developers write.
+* `out` shows result of browserified package.
+
+*Note* This folder contains prove of concept only. I had to tweek browserified output
+to add missing functionality. This manual work can be definitely automated.
