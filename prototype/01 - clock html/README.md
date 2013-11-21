@@ -23,7 +23,7 @@ This is is your `index.html`
 # How Clock is built?
 
 After a special compiler is executed all `require` tags are inlined into
-html and corresponding javascript logic is attach to parts of DOM.
+html and corresponding javascript logic is attached to parts of DOM.
 
 ``` html
   <html>
@@ -42,11 +42,11 @@ html and corresponding javascript logic is attach to parts of DOM.
   </html>
 ```
 
-Javascript logic to instantiate `Clock` component on behalf of use resides in
-`main.bundle.js`. Uniquely identify which part of generated markup corresponds
+Javascript logic to instantiate `Clock` component resides in
+`main.bundle.js`. Uniquely identifying which part of generated markup corresponds
 to component's template might be challenging, but not impossible.
 
-One way to do this could be recording an xpath to inlined component and associating
+One way to accomplish this could be recording an xpath to inlined component and associating
 this xpath with a component constructor. E.g.:
 
 ``` js
