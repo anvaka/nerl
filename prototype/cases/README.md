@@ -1,4 +1,4 @@
 Test cases
 ----------
 
-Some examples on how it _might_ work
+This folder contains prototype of API, which I'm trying to implement.
