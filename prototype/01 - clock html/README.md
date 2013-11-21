@@ -22,6 +22,16 @@ This is is your `index.html`
 
 # How Clock is built?
 
+Clock module is a common js module, which has associated template file:
+
+``` html
+  <span id="hours"></span>
+  <span>:</span>
+  <span id="minutes"></span>
+  <span>:</span>
+  <span id="seconds"></span><br />
+```
+
 After a special compiler is executed all `require` tags are inlined into
 html and corresponding javascript logic is attached to parts of DOM.
 
