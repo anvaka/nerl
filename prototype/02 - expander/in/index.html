@@ -3,7 +3,16 @@
   <title>Create clock from markup</title>
 </head>
 <body>
+  <!-- Simple example of an expander -->
   <require './lib/expander'>
+    This content is only visible when expander is expanded.
+  </require>
+
+  <!-- Expander with custom header -->
+  <require './lib/expander'>
+    <require.header>
+      Expander with a <b>custom</b> header.
+    </require.header>
     This content is only visible when expander is expanded.
   </require>
 </body>
