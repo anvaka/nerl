@@ -1,0 +1,18 @@
+{
+  "name": "ag.alert",
+  "version": "0.0.0",
+  "description": "angularjs alert directive, extracted into npm module",
+  "main": "alert.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anvaka/nerl.git"
+  },
+  "author": "Andrei Kashcha",
+  "license": "BSD-2-Clause, MIT",
+  "bugs": {
+    "url": "https://github.com/anvaka/nerl/issues"
+  },
+  "dependencies": {
+    "nerl": "*"
+  }
+}
