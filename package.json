@@ -1,7 +1,7 @@
 {
   "name": "nerl",
   "version": "0.0.0",
-  "description": "From Seattle with Love",
+  "description": "Please don't use me yet. I'm work in progress",
   "main": "index.js",
   "scripts": {
     "test": "tap test/*.js"
@@ -17,9 +17,5 @@
   },
   "devDependencies": {
     "tap": "~0.4.4"
-  },
-  "dependencies": {
-    "cheerio": "~0.12.4",
-    "brfs": "0.0.8"
   }
 }
