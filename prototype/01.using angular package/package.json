@@ -5,10 +5,11 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified yet\" && exit 1",
-    "server": "node_modules/.bin/beefy app.js"
+    "server": "node_modules/.bin/beefy app.js -- -t dinline"
   },
   "license": "BSD-2-Clause",
-  "dependencies": {
+  "devDependencies": {
+    "dinline": "0.0.1",
     "beefy": "~0.6.0",
     "browserify": "~2.36.1"
   }

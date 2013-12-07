@@ -1,5 +1,9 @@
 module.exports = AlertDemoCtrl;
 
+// We know we will need alert directive. At least one module should require
+// it to let browserify include it into the bundle
+require('ag.alert');
+
 function AlertDemoCtrl($scope) {
   $scope.alerts = [
     { type: 'error', msg: 'Oh snap! Change a few things up and try submitting again.' }, 
@@ -14,6 +18,3 @@ function AlertDemoCtrl($scope) {
     $scope.alerts.splice(index, 1);
   };
 }
-
-// We know this controller is used by alert tag:
-require('ag.alert');
