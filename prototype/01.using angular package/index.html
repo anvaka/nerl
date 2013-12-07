@@ -1,0 +1,18 @@
+<!doctype html>
+<html ng-app="alertDemo">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+  <title>Alert directive from NPM</title>
+  <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
+</head>
+<body>
+  <div ng-controller="AlertDemoCtrl">
+    <alert ng-repeat="alert in alerts" type="alert.type" close="closeAlert($index)">{{alert.msg}}</alert>
+    <button class='btn' ng-click="addAlert()">Add Alert</button>
+  </div>
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.3/angular.js" charset="utf-8"></script>
+  <script type="text/javascript" src="./app.js" charset="utf-8"></script>
+</body>
+</html>
