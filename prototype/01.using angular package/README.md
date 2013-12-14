@@ -1,7 +1,7 @@
 Using angular.js directives from npm
 ====================================
 
-This example shows how to use angular.js custom directive from npm. (See also: npm alert directive [source code](https://github.com/anvaka/nerl/tree/master/prototype/00.angular%20package%20-%20alert)).
+This example shows how to use angular.js custom directive from npm. (See also: npm alert directive [source code](https://github.com/anvaka/ag.alert)).
 
 # Quick start
 
