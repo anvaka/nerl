@@ -14,7 +14,7 @@
     "browserify": "~2.36.1"
   },
   "dependencies": {
-    "ag.alert": "0.0.0",
+    "ag.alert": "0.0.2",
     "nerl": "0.0.0"
   }
 }
