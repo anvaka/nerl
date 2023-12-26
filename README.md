@@ -1,9 +1,7 @@
 nerl
 ====
 
-This repository is work in progress.
-
-I'm trying to build HTML components infrstructure, which leverages power of npm.
+I was trying to build HTML components infrastructure, which leveragef the power of npm.
 
 I've seen already:
 
@@ -17,4 +15,4 @@ This repository is different
 
 How is this different?
 ---------------------
-It does not reinvent the wheel. I will elaborate on this when this project is a little bit more stable.
+It does not reinvent the wheel. I will likely not elaborate on this when this project is a little bit more stable.
